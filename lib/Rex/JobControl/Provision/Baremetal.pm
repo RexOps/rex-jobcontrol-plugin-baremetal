@@ -20,7 +20,7 @@ use Rex::Commands::Virtualization;
 
 with 'Rex::JobControl::Provision::Base', 'Rex::JobControl::Plugin';
 
-Rex::JobControl::Provision->register_type('kvm');
+Rex::JobControl::Provision->register_type('baremetal');
 
 has host      => ( is => 'ro' );
 has name      => ( is => 'ro' );
