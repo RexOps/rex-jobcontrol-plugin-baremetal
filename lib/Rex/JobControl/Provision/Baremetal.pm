@@ -29,6 +29,7 @@ sub create {
   my ($self) = @_;
   $self->project->app->log->debug(
     "Creating a baremetal machine. (stub)");
+  return {};
 }
 
 sub remove {
