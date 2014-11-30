@@ -1,7 +1,7 @@
 # Baremetal Plugin for Rex JobControl
 
 
-This is a docker plugin for Rex JobControl to provision Baremetal machines. Currently this is just a stub.
+This is a baremetal plugin for Rex JobControl to provision Baremetal machines. Currently this is just a stub.
 
 
 ## INSTALLATION
